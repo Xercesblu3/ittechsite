@@ -1,12 +1,12 @@
 :root {
-  --bg: #0b1220;
-  --surface: #131d31;
-  --surface-soft: #f3f6fb;
-  --text: #dce6f8;
-  --text-dark: #1e2a3d;
-  --accent: #3b82f6;
-  --accent-2: #22c55e;
-  --border: #2a3a58;
+  --bg: #0B2239;
+  --surface: #3A1E3A;
+  --surface-soft: #F8FAFC;
+  --text: #F8FAFC;
+  --text-dark: #0B2239;
+  --accent: #2F80ED;
+  --accent-2: #CBD5E1;
+  --border: #CBD5E1;
   --max: 1100px;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .hero {
   padding-bottom: 4rem;
-  background: linear-gradient(160deg, #0b1220 0%, #16243d 55%, #1b3257 100%);
+  background: linear-gradient(160deg, #0B2239 0%, #3A1E3A 60%, #2F80ED 100%);
 }
 
 .nav {
@@ -61,7 +61,7 @@ body {
 }
 
 .eyebrow {
-  color: #a5c4ff;
+  color: #CBD5E1;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.75rem;
@@ -111,7 +111,7 @@ h1 {
 
 .alt .card {
   background: white;
-  border-color: #d5deef;
+  border-color: #CBD5E1;
 }
 
 .split {
@@ -129,11 +129,11 @@ h1 {
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1rem;
-  background: #0f182b;
+  background: #0B2239;
 }
 
 .btn {
-  border: 1px solid #7ea7ff;
+  border: 1px solid #2F80ED;
   color: var(--text);
   padding: 0.7rem 1rem;
   border-radius: 10px;
@@ -173,7 +173,7 @@ label {
 input,
 textarea {
   width: 100%;
-  border: 1px solid #ccd7eb;
+  border: 1px solid #CBD5E1;
   border-radius: 8px;
   padding: 0.65rem;
   font: inherit;
